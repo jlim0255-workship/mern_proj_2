@@ -12,3 +12,8 @@ Link: https://www.youtube.com/watch?v=ZuwigEmwsTM&list=LL&index=1&t=185s
 // D5: fit3143 pst 2 and interview break, will continue after pst 2 (or tmr during break time)
 
 // D6: fit3143 pst prep cont and lab8 prep, delay the progress
+
+// 30/9/2025:
+- 1:13:28
+- Added login logout function
+- Added stream configuration (upsert the user to stream dashboard)
