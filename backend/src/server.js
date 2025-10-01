@@ -4,6 +4,7 @@ import express from "express";
 import dotenv from "dotenv"
 import authRoutes from "./routes/auth.route.js"
 import { connectDB } from "./lib/db.js";
+import cookieParser from "cookie-parser";
 
 dotenv.config();
 
@@ -15,6 +16,9 @@ const PORT = process.env.PORT
 
 // jsonfy the user req
 app.use(express.json())
+
+// parse the cookie from the req
+app.use(cookieParser())
 
 // standardise the route
 app.use("/api/auth", authRoutes)
