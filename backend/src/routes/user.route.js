@@ -10,4 +10,7 @@ router.get("/", protectRoute,getRecommendedUsers);
 // show friend users
 router.get("/friends", protectRoute, getMyFriends);
 
+// send friend request
+router.post("/friend-request/:id", protectRoute, sendFriendRequest)
+
 export default router;
