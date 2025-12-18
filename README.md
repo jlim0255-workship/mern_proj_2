@@ -17,3 +17,8 @@ Link: https://www.youtube.com/watch?v=ZuwigEmwsTM&list=LL&index=1&t=185s
 - 1:13:28
 - Added login logout function
 - Added stream configuration (upsert the user to stream dashboard)
+
+(IN-SEMESTER STUFF Y3S1)
+
+// 18/12/2025:
+-revise the code repo, time to lock in.
